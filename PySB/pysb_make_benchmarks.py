@@ -29,6 +29,8 @@ if method != 'nfsim':
 # Benchmarking parameters
 n = num_sims
 lengs = numpy.logspace(minT, maxT, num=nT)
+print("lengs = ", lengs)
+print("minT = {}, maxT = {}, nT = {}".format(minT, maxT, nT))
 
 # Benchmarking functions.
 def make_ssa_benchmark(simulator, n):    

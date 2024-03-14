@@ -8,3 +8,6 @@ Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 ReactionNetworkImporters = "b4db0fb7-de2a-5028-82bf-5021f5cfa881"
 SBMLImporter = "210efffb-c3c8-456d-a807-6f55560b12fe"
 TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
+
+[compat]
+SBMLImporter = "1.1"
