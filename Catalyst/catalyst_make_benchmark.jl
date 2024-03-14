@@ -34,7 +34,7 @@ end
 solver = Dict(["Direct" => Direct, "SortingDirect" => SortingDirect, "RSSA" => RSSA, "RSSACR" => RSSACR])[methodName]
 
 # Load model.
-model, cb = load_SBML("../Models/$(modelName).xml")
+model, cb = load_SBML("../Models/$(modelName).xml"; mass_action = true)
 
 ### Benchmarking ###
 
