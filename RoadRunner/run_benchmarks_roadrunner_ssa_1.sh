@@ -18,3 +18,6 @@ time ${run_julia}  --threads $JULIA_THREADS_TO_USE roadrunner_make_benchmark.jl 
 
 echo "Starts benchmark runs on the egfr_net model."
 time ${run_julia}  --threads $JULIA_THREADS_TO_USE roadrunner_make_benchmark.jl egfr_net SSA 1 2 4
+
+echo "Starts benchmark runs on the fceri_gamma2 model."
+time ${run_julia} --threads $JULIA_THREADS_TO_USE roadrunner_make_benchmark.jl fceri_gamma2 SSA 1 2 4

@@ -17,7 +17,7 @@ using TimerOutputs
 ### Read Inputs ###
 
 # (If ARGS empty, we are probably running in e.g. VSCode to test stuff, then give some simple case).
-modelName, methodName, minT, maxT, nT = (isempty(ARGS) ? ["multistate", "RSSA", "1", "4", "7"] : ARGS[1:5])
+modelName, methodName, minT, maxT, nT = (isempty(ARGS) ? ["multisite2", "RSSACR", "1", "4", "7"] : ARGS[1:5])
 
 # Computes the benchmarking simulation lengths.
 lengs = 10 .^(range(parse(Float64,minT),stop=parse(Float64,maxT),length=parse(Int64,nT)));
@@ -34,7 +34,7 @@ end
 solver = Dict(["Direct" => Direct, "SortingDirect" => SortingDirect, "RSSA" => RSSA, "RSSACR" => RSSACR])[methodName]
 
 # Load model.
-model, cb = load_SBML("../Models/$(modelName).xml"; mass_action = true)
+model, cb = load_SBML("../Models/$(modelName).xml")
 
 ### Benchmarking ###
 

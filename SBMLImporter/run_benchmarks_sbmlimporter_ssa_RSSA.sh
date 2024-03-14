@@ -14,7 +14,7 @@ echo "Starts benchmark runs on the multistate model."
 time ${run_julia} --threads $JULIA_THREADS_TO_USE sbmlimporter_make_benchmark.jl multistate RSSA 1 5 9
 
 echo "Starts benchmark runs on the multisite2 model."
-time ${run_julia} --threads $JULIA_THREADS_TO_USE sbmlimporter_make_benchmark.jl multisite2 RSSA 1 5 9
+time ${run_julia} --threads $JULIA_THREADS_TO_USE sbmlimporter_make_benchmark.jl multisite2 RSSA 1 4 7
 
 echo "Starts benchmark runs on the egfr_net model."
 time ${run_julia} --threads $JULIA_THREADS_TO_USE sbmlimporter_make_benchmark.jl egfr_net RSSA 1 3 7

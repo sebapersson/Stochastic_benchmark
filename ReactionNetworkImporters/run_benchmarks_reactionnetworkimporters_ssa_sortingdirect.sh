@@ -14,7 +14,7 @@ echo "Starts benchmark runs on the multistate model."
 time ${run_julia} --threads $JULIA_THREADS_TO_USE reactionnetworkimporters_make_benchmark.jl multistate SortingDirect 1 5 9
 
 echo "Starts benchmark runs on the multisite2 model."
-time ${run_julia} --threads $JULIA_THREADS_TO_USE reactionnetworkimporters_make_benchmark.jl multisite2 SortingDirect 1 5 9
+time ${run_julia} --threads $JULIA_THREADS_TO_USE reactionnetworkimporters_make_benchmark.jl multisite2 SortingDirect 1 4 7
 
 echo "Starts benchmark runs on the egfr_net model."
 time ${run_julia} --threads $JULIA_THREADS_TO_USE reactionnetworkimporters_make_benchmark.jl egfr_net SortingDirect 1 3 7

@@ -29,13 +29,11 @@ if method not in ['nf', 'ssa']:
 # Benchmarking parameters
 n = num_sims
 lengs = numpy.logspace(minT, maxT, num=nT)
-print("lengs = ", lengs)
-print("minT = {}, maxT = {}, nT = {}".format(minT, maxT, nT))
 
 # Benchmarking functions.
 def make_ssa_benchmark(simulator, n):    
     def benchmark_func():
-        simulator.run(n_runs=1, method=method)
+        simulator.run(n_runs=1, method=method, gml=1000000)
     durations = timeit.Timer(benchmark_func).repeat(repeat=n, number=1)
     return durations
 
