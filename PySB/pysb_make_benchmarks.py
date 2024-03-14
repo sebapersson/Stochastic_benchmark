@@ -23,7 +23,7 @@ maxT = float(sys.argv[4])
 nT = int(sys.argv[5])
 num_sims = int(sys.argv[6])
 
-if method != 'nfsim':
+if method not in ['nf', 'ssa']:
     raise Exception("Provided an invalid method.")
 
 # Benchmarking parameters
@@ -35,7 +35,7 @@ print("minT = {}, maxT = {}, nT = {}".format(minT, maxT, nT))
 # Benchmarking functions.
 def make_ssa_benchmark(simulator, n):    
     def benchmark_func():
-        simulator.run(n_runs=1, method='nf')
+        simulator.run(n_runs=1, method=method)
     durations = timeit.Timer(benchmark_func).repeat(repeat=n, number=1)
     return durations
 

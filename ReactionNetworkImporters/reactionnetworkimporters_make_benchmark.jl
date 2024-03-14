@@ -10,7 +10,7 @@ println("Threads in use: $(Threads.nthreads())")
 using BenchmarkTools
 using JSON
 using JumpProcesses
-using SBMLImporter
+using ReactionNetworkImporters
 using TimerOutputs
 
 
@@ -25,7 +25,7 @@ lengs = 10 .^(range(parse(Float64,minT),stop=parse(Float64,maxT),length=parse(In
 # Declares a serilization function.
 function serialize_benchmarks(benchmarks, lengs, methodName)
     medians = map(bm -> median(bm.times)/1000000, benchmarks)
-    open("../Results/Catalyst/$(methodName)_$(modelName).json", "w") do f
+    open("../Results/ReactionNetworkImporters/$(methodName)_$(modelName).json", "w") do f
         JSON.print(f, Dict("benchmarks"=>benchmarks, "medians"=>medians, "lengs"=>lengs))
     end
 end
@@ -34,7 +34,7 @@ end
 solver = Dict(["Direct" => Direct, "SortingDirect" => SortingDirect, "RSSA" => RSSA, "RSSACR" => RSSACR])[methodName]
 
 # Load model.
-model, cb = load_SBML("../Models/$(modelName).xml"; mass_action = true)
+model = loadrxnetwork(BNGNetwork(), "../Models/$(modelName).net")
 
 ### Benchmarking ###
 

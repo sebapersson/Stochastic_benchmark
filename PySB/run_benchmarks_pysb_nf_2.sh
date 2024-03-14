@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH -o ../Results/PySB/Logs/run_benchmarks_pysb_ssa_1.log
+#SBATCH -o ../Results/PySB/Logs/run_benchmarks_pysb_nf_2.log
 #SBATCH -N 1  
 #SBATCH --ntasks=1  
 #SBATCH --cpus-per-task=1
@@ -11,5 +11,5 @@
 eval "$(conda shell.bash hook)"
 conda activate Stochastic_benchmark
 
-echo "Starts benchmark runs on the fceri_gamma2 model."
-time python pysb_make_benchmarks.py fceri_gamma2 ssa 1 3 4 5
+echo "Starts benchmark runs on the BCR model."
+time python pysb_make_benchmarks.py BCR nf 3.398 4.204 2 2

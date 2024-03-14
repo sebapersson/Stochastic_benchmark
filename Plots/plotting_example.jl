@@ -4,7 +4,6 @@
 cd(@__DIR__)
 import Pkg
 Pkg.activate(".")
-println("Threads in use: $(Threads.nthreads())")
 
 # Fetch packages.
 using JSON
@@ -41,16 +40,16 @@ end
 ### Plot Benchmarks.
 
 # Multistate
-catalyst_multistate_direct_bm = MetodBenchmark("Direct", "Catalyst", "multistate")
-catalyst_multistate_sortingdirect_bm = MetodBenchmark("SortingDirect", "Catalyst", "multistate")
-catalyst_multistate_RSSA_bm = MetodBenchmark("RSSA", "Catalyst", "multistate")
-catalyst_multistate_RSSACR_bm = MetodBenchmark("RSSACR", "Catalyst", "multistate")
+sbmlimporter_multistate_direct_bm = MetodBenchmark("Direct", "SBMLImporter", "multistate")
+sbmlimporter_multistate_sortingdirect_bm = MetodBenchmark("SortingDirect", "SBMLImporter", "multistate")
+sbmlimporter_multistate_RSSA_bm = MetodBenchmark("RSSA", "SBMLImporter", "multistate")
+sbmlimporter_multistate_RSSACR_bm = MetodBenchmark("RSSACR", "SBMLImporter", "multistate")
 roadrunner_multistate_SSA_bm = MetodBenchmark("SSA", "RoadRunner", "multistate")
-pysb_multistate_nfsim_bm = MetodBenchmark("nfsim", "PySB", "multistate")
+pysb_multistate_nf_bm = MetodBenchmark("nf", "PySB", "multistate")
 
-plot_bm(catalyst_multistate_direct_bm; color=:skyblue)
-plot_bm!(catalyst_multistate_sortingdirect_bm; color=:lightblue)
-plot_bm!(catalyst_multistate_RSSA_bm; color=:blue)
-plot_bm!(catalyst_multistate_RSSACR_bm; color=:navyblue)
+plot_bm(sbmlimporter_multistate_direct_bm; color=:skyblue)
+plot_bm!(sbmlimporter_multistate_sortingdirect_bm; color=:lightblue)
+plot_bm!(sbmlimporter_multistate_RSSA_bm; color=:blue)
+plot_bm!(sbmlimporter_multistate_RSSACR_bm; color=:navyblue)
 plot_bm!(roadrunner_multistate_RSSACR_bm; color=:red)
-plot_bm!(pysb_multistate_nfsim_bm; color=:green)
+plot_bm!(pysb_multistate_nf_bm; color=:green)
