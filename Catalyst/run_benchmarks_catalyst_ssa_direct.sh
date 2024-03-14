@@ -1,5 +1,12 @@
 #!/bin/bash
 
+#SBATCH -o ../Results/Catalyst/Logs/run_benchmarks_catalyst_ssa_direct.log
+#SBATCH -N 1  
+#SBATCH --ntasks=1  
+#SBATCH --cpus-per-task=1
+#SBATCH --exclusive=user
+#SBATCH --mem-per-cpu=192000MB
+
 JULIA_THREADS_TO_USE=1
 run_julia="/home/sebpe/julia-1.10.2/bin/julia"
 
@@ -13,4 +20,4 @@ echo "Starts benchmark runs on the egfr_net model."
 time ${run_julia} --threads $JULIA_THREADS_TO_USE catalyst_make_benchmark.jl egfr_net Direct 1 2 4
 
 echo "Starts benchmark runs on the fceri_gamma2 model."
-#time julia --threads $JULIA_THREADS_TO_USE catalyst_make_benchmark.jl fceri_gamma2 Direct 1 2 4
+time ${run_julia} --threads $JULIA_THREADS_TO_USE catalyst_make_benchmark.jl fceri_gamma2 Direct 1 2 4
