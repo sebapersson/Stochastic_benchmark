@@ -33,7 +33,7 @@ lengs = numpy.logspace(minT, maxT, num=nT)
 # Benchmarking functions.
 def make_ssa_benchmark(simulator, n):    
     def benchmark_func():
-        simulator.run(n_runs=1, method=method, gml=1000000)
+        simulator.run(n_runs=1, method=method, gml=50000000)
     durations = timeit.Timer(benchmark_func).repeat(repeat=n, number=1)
     return durations
 
