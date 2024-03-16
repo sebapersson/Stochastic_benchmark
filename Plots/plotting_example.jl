@@ -57,7 +57,7 @@ function plot_benchmarks(model)
     sbmlimporter_RSSACR_bm.completed && plot_bm!(sbmlimporter_RSSACR_bm; color=:navyblue, label = "SBMLImporter (RSSACR)")
     roadrunner_SSA_bm.completed && plot_bm!(roadrunner_SSA_bm; color=:green, label = "RoadRunner")
     pysb_nf_bm.completed && plot_bm!(pysb_nf_bm; color=:red, label = "PySB (NFsim)")
-    pysb_ssa_bm.completed && plot_bm!(pysb_ssa_bm; color=:lightcoral, label = "PySB (NFsim)")
+    pysb_ssa_bm.completed && plot_bm!(pysb_ssa_bm; color=:lightcoral, label = "PySB (SSA)")
     plot!()
 end
 
