@@ -1,0 +1,59 @@
+# Created by BioNetGen 2.9.1
+begin parameters
+    1 Etot   300  # Constant
+    2 Ftot   300  # Constant
+    3 Stot   3000  # Constant
+    4 kOnE   0.7  # Constant
+    5 kOffE  3  # Constant
+    6 kCatE  5.0  # Constant
+    7 kOnF   0.7  # Constant
+    8 kOffF  3  # Constant
+    9 kCatF  5.1  # Constant
+end parameters
+begin molecule types
+    1 E(s)
+    2 F(s)
+    3 S(p1~U~P)
+end molecule types
+begin observables
+    1 Molecules Efree E(s)
+    2 Molecules Ffree F(s)
+    3 Molecules S1P S(p1~P!?)
+end observables
+begin species
+    1 E(s) Etot
+    2 F(s) Ftot
+    3 S(p1~U) Stot
+    4 E(s!1).S(p1~U!1) 0
+    5 S(p1~P) 0
+    6 F(s!1).S(p1~P!1) 0
+end species
+begin reaction rules
+  _R1:  E(s) + S(p1~U) <-> E(s!1).S(p1~U!1)  kOnE, kOffE
+  # Bind(0.0.0,0.1.0)
+  # Reverse
+  # Unbind(0.0.0,0.1.0)
+  _R2:  E(s!1).S(p1~U!1) -> E(s) + S(p1~P)  kCatE
+  # StateChange(0.1.0,U->P)
+  # Unbind(0.0.0,0.1.0)
+  _R3:  F(s) + S(p1~P) <-> F(s!1).S(p1~P!1)  kOnF, kOffF
+  # Bind(0.0.0,0.1.0)
+  # Reverse
+  # Unbind(0.0.0,0.1.0)
+  _R4:  F(s!1).S(p1~P!1) -> F(s) + S(p1~U)  kCatF
+  # StateChange(0.1.0,P->U)
+  # Unbind(0.0.0,0.1.0)
+end reaction rules
+begin reactions
+    1 1,3 4 kOnE #_R1
+    2 4 1,3 kOffE #_reverse__R1
+    3 4 1,5 kCatE #_R2
+    4 2,5 6 kOnF #_R3
+    5 6 2,5 kOffF #_reverse__R3
+    6 6 2,3 kCatF #_R4
+end reactions
+begin groups
+    1 Efree                1
+    2 Ffree                2
+    3 S1P                  5,6
+end groups
