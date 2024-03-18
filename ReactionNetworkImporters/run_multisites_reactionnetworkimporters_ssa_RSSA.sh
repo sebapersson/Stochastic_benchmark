@@ -1,5 +1,12 @@
 #!/bin/bash
 
+#SBATCH -o ../Results/ReactionNetworkImporters/Logs/run_multisites_reactionnetworkimporters_ssa_RSSA.log
+#SBATCH -N 1  
+#SBATCH --ntasks=1  
+#SBATCH --cpus-per-task=1
+#SBATCH --exclusive=user
+#SBATCH --mem-per-cpu=192000MB
+
 JULIA_THREADS_TO_USE=1
 run_julia="julia"
 

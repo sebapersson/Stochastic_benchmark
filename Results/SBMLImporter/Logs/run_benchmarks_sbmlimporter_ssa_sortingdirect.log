@@ -1,0 +1,34 @@
+Starts benchmark runs on the multistate model.
+  Activating project at `~/Projects/Stochastic_benchmark/SBMLImporter`
+  Activating project at `~/Projects/Stochastic_benchmark/SBMLImporter`
+Threads in use: 1
+
+-----     Beginning benchmarks for multistate using SortingDirect     -----
+-----     Benchmark finished.     -----
+
+real	3m46.729s
+user	3m15.431s
+sys	0m11.497s
+Starts benchmark runs on the multisite2 model.
+  Activating project at `~/Projects/Stochastic_benchmark/SBMLImporter`
+  Activating project at `~/Projects/Stochastic_benchmark/SBMLImporter`
+Threads in use: 1
+
+-----     Beginning benchmarks for multisite2 using SortingDirect     -----
+-----     Benchmark finished.     -----
+
+real	10m44.014s
+user	10m29.987s
+sys	0m7.878s
+Starts benchmark runs on the egfr_net model.
+  Activating project at `~/Projects/Stochastic_benchmark/SBMLImporter`
+  Activating project at `~/Projects/Stochastic_benchmark/SBMLImporter`
+Threads in use: 1
+
+-----     Beginning benchmarks for egfr_net using SortingDirect     -----
+-----     Benchmark finished.     -----
+
+real	17m49.826s
+user	17m14.880s
+sys	0m12.011s
+Starts benchmark runs on the BCR model.

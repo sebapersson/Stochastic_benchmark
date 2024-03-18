@@ -1,0 +1,42 @@
+Starts benchmark runs on the multisite model nr 1
+Threads in use: 1
+lengs = [  10.  100. 1000.]
+
+real	3m23.207s
+user	1m47.954s
+sys	0m2.602s
+Starts benchmark runs on the multisite model nr 3
+Threads in use: 1
+lengs = [  10.  100. 1000.]
+
+real	3m49.104s
+user	3m46.927s
+sys	0m1.332s
+Starts benchmark runs on the multisite model nr 4
+Threads in use: 1
+lengs = [  10.  100. 1000.]
+
+real	4m45.807s
+user	4m43.567s
+sys	0m1.376s
+Starts benchmark runs on the multisite model nr 5
+Threads in use: 1
+lengs = [  10.  100. 1000.]
+
+real	5m48.868s
+user	5m46.311s
+sys	0m1.409s
+Starts benchmark runs on the multisite model nr 6
+Threads in use: 1
+lengs = [  10.  100. 1000.]
+
+real	6m53.086s
+user	6m47.084s
+sys	0m1.800s
+Starts benchmark runs on the multisite model nr 7
+Threads in use: 1
+lengs = [  10.  100. 1000.]
+
+real	7m51.849s
+user	7m49.539s
+sys	0m1.387s

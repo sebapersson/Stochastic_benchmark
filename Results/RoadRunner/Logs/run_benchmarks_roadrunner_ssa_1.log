@@ -1,0 +1,52 @@
+Starts benchmark runs on the multistate model.
+  Activating project at `~/Projects/Stochastic_benchmark/RoadRunner`
+  Activating project at `~/Projects/Stochastic_benchmark/RoadRunner`
+┌ Warning: Replacing docs for `RoadRunner.getLastError :: Tuple{}` in module `RoadRunner`
+└ @ Base.Docs docs/Docs.jl:243
+Threads in use: 1
+
+-----     Beginning benchmarks for multistate using SSA.     -----
+-----     Benchmark finished.     -----
+
+real	4m24.410s
+user	3m57.356s
+sys	0m7.163s
+Starts benchmark runs on the multisite2 model.
+  Activating project at `~/Projects/Stochastic_benchmark/RoadRunner`
+  Activating project at `~/Projects/Stochastic_benchmark/RoadRunner`
+┌ Warning: Replacing docs for `RoadRunner.getLastError :: Tuple{}` in module `RoadRunner`
+└ @ Base.Docs docs/Docs.jl:243
+Threads in use: 1
+
+-----     Beginning benchmarks for multisite2 using SSA.     -----
+-----     Benchmark finished.     -----
+
+real	43m37.932s
+user	43m29.131s
+sys	0m5.634s
+Starts benchmark runs on the egfr_net model.
+  Activating project at `~/Projects/Stochastic_benchmark/RoadRunner`
+  Activating project at `~/Projects/Stochastic_benchmark/RoadRunner`
+┌ Warning: Replacing docs for `RoadRunner.getLastError :: Tuple{}` in module `RoadRunner`
+└ @ Base.Docs docs/Docs.jl:243
+Threads in use: 1
+
+-----     Beginning benchmarks for egfr_net using SSA.     -----
+-----     Benchmark finished.     -----
+
+real	72m50.572s
+user	72m21.245s
+sys	0m6.496s
+Starts benchmark runs on the fceri_gamma2 model.
+  Activating project at `~/Projects/Stochastic_benchmark/RoadRunner`
+  Activating project at `~/Projects/Stochastic_benchmark/RoadRunner`
+┌ Warning: Replacing docs for `RoadRunner.getLastError :: Tuple{}` in module `RoadRunner`
+└ @ Base.Docs docs/Docs.jl:243
+Threads in use: 1
+
+-----     Beginning benchmarks for fceri_gamma2 using SSA.     -----
+-----     Benchmark finished.     -----
+
+real	25m8.736s
+user	24m26.022s
+sys	0m13.324s

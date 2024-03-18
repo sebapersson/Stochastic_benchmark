@@ -96,7 +96,7 @@ function julia_importer_comparisson(model)
     plot(p1, p2, p3, p4, layout=(2,2), size=(1200,700))
 end
 
-### Plot Benchmarks.
+### Plot Benchmarks ###
 
 # Benchmarks.
 plot_benchmarks("multistate")
@@ -111,3 +111,34 @@ julia_importer_comparisson("multisite2")
 julia_importer_comparisson("egfr_net")
 julia_importer_comparisson("BCR")
 julia_importer_comparisson("fceri_gamma2")
+
+
+### Multisite Stuff ###
+
+# Plots all multisite benchmarks.
+function plot_multisite_benchmarks( ; importer = "SBMLImporter")
+    plots = [plot_multisite_benchmark(i; importer= importer) for i in [1, 3, 4, 5, 6, 7]]
+    plot(plots..., size = (1200,700))
+end
+
+# Plots a single multisite benchmark.
+function plot_multisite_benchmark(i; importer = "SBMLImporter")
+    model = "multisite$i"
+    sbmlimporter_direct_bm = MetodBenchmark("Direct", importer, model)
+    sbmlimporter_sortingdirect_bm = MetodBenchmark("SortingDirect", importer, model)
+    sbmlimporter_RSSA_bm = MetodBenchmark("RSSA", importer, model)
+    sbmlimporter_RSSACR_bm = MetodBenchmark("RSSACR", importer, model)
+    pysb_nf_bm = MetodBenchmark("nf", "PySB", model)
+
+    plot()
+    sbmlimporter_direct_bm.completed && plot_bm!(sbmlimporter_direct_bm; color=:skyblue, label = "$importer (Direct)")
+    sbmlimporter_sortingdirect_bm.completed && plot_bm!(sbmlimporter_sortingdirect_bm; color=:lightblue, label = "$importer (Sorting direct)")
+    sbmlimporter_RSSA_bm.completed && plot_bm!(sbmlimporter_RSSA_bm; color=:blue, label = "$importer (RSSA)")
+    sbmlimporter_RSSACR_bm.completed && plot_bm!(sbmlimporter_RSSACR_bm; color=:navyblue, label = "$importer (RSSACR)")
+    pysb_nf_bm.completed && plot_bm!(pysb_nf_bm; color=:red, label = "PySB (NFsim)")
+    plot!(title=model)
+end
+
+# Make plots.
+plot_multisite_benchmarks()
+plot_multisite_benchmarks(importer = "ReactionNetworkImporters")

@@ -1,0 +1,6 @@
+Starts benchmark runs on the egfr_net model.
+Threads in use: 1
+
+real	95m28.692s
+user	93m30.720s
+sys	0m44.036s

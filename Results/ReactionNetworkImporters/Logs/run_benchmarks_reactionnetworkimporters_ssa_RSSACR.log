@@ -1,0 +1,105 @@
+Starts benchmark runs on the multistate model.
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
+┌ Warning: Using arrays or dicts to store parameters of different types can hurt performance.
+│ Consider using tuples instead.
+└ @ SciMLBase ~/.julia/packages/SciMLBase/Dwomw/src/performance_warnings.jl:33
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multistate using RSSACR     -----
+-----     Benchmark finished.     -----
+
+real	4m16.051s
+user	3m30.591s
+sys	0m13.299s
+Starts benchmark runs on the multisite2 model.
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
+┌ Warning: Using arrays or dicts to store parameters of different types can hurt performance.
+│ Consider using tuples instead.
+└ @ SciMLBase ~/.julia/packages/SciMLBase/Dwomw/src/performance_warnings.jl:33
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multisite2 using RSSACR     -----
+-----     Benchmark finished.     -----
+
+real	4m44.349s
+user	4m25.581s
+sys	0m9.402s
+Starts benchmark runs on the egfr_net model.
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
+┌ Warning: Using arrays or dicts to store parameters of different types can hurt performance.
+│ Consider using tuples instead.
+└ @ SciMLBase ~/.julia/packages/SciMLBase/Dwomw/src/performance_warnings.jl:33
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for egfr_net using RSSACR     -----
+-----     Benchmark finished.     -----
+
+real	4m38.804s
+user	4m23.180s
+sys	0m8.348s
+Starts benchmark runs on the BCR model.
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
+┌ Warning: Using arrays or dicts to store parameters of different types can hurt performance.
+│ Consider using tuples instead.
+└ @ SciMLBase ~/.julia/packages/SciMLBase/Dwomw/src/performance_warnings.jl:33
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for BCR using RSSACR     -----
+-----     Benchmark finished.     -----
+
+real	194m3.427s
+user	192m58.058s
+sys	0m9.906s
+Starts benchmark runs on the fceri_gamma2 model.
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
+┌ Warning: Using arrays or dicts to store parameters of different types can hurt performance.
+│ Consider using tuples instead.
+└ @ SciMLBase ~/.julia/packages/SciMLBase/Dwomw/src/performance_warnings.jl:33
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for fceri_gamma2 using RSSACR     -----
+-----     Benchmark finished.     -----
+
+real	5m12.361s
+user	4m18.220s
+sys	0m14.680s

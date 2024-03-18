@@ -8,7 +8,7 @@
 #SBATCH --mem-per-cpu=192000MB
 
 JULIA_THREADS_TO_USE=1
-run_julia="/home/sebpe/julia-1.10.2/bin/julia"
+run_julia="julia"
 
 echo "Starts benchmark runs on the BCR model."
 time ${run_julia} --threads $JULIA_THREADS_TO_USE roadrunner_make_benchmark.jl BCR SSA 3.398 4.204 2
