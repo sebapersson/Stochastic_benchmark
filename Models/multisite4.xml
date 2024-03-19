@@ -13,9 +13,9 @@
       <compartment id="cell" size="1"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species id="S1" compartment="cell" initialAmount="300" name="E(s)"/>
-      <species id="S2" compartment="cell" initialAmount="300" name="F(s)"/>
-      <species id="S3" compartment="cell" initialAmount="3000" name="S(p1~U,p2~U,p3~U,p4~U)"/>
+      <species id="S1" compartment="cell" initialAmount="5360" name="E(s)"/>
+      <species id="S2" compartment="cell" initialAmount="1160" name="F(s)"/>
+      <species id="S3" compartment="cell" initialAmount="5360" name="S(p1~U,p2~U,p3~U,p4~U)"/>
       <species id="S4" compartment="cell" initialAmount="0" name="E(s!1).S(p1~U!1,p2~U,p3~U,p4~U)"/>
       <species id="S5" compartment="cell" initialAmount="0" name="E(s!1).S(p1~U,p2~U!1,p3~U,p4~U)"/>
       <species id="S6" compartment="cell" initialAmount="0" name="E(s!1).S(p1~U,p2~U,p3~U!1,p4~U)"/>
@@ -274,9 +274,9 @@
     </listOfSpecies>
     <listOfParameters>
       <!-- Independent variables -->
-      <parameter id="Etot" value="300"/>
-      <parameter id="Ftot" value="300"/>
-      <parameter id="Stot" value="3000"/>
+      <parameter id="Etot" value="5360"/>
+      <parameter id="Ftot" value="1160"/>
+      <parameter id="Stot" value="5360"/>
       <parameter id="kOnE" value="0.7"/>
       <parameter id="kOffE" value="3"/>
       <parameter id="kCatE" value="5"/>

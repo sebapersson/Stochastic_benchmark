@@ -1,8 +1,8 @@
 # Created by BioNetGen 2.9.1
 begin parameters
-    1 Etot   300  # Constant
-    2 Ftot   300  # Constant
-    3 Stot   3000  # Constant
+    1 Etot   5360  # Constant
+    2 Ftot   1160  # Constant
+    3 Stot   5360  # Constant
     4 kOnE   0.7  # Constant
     5 kOffE  3  # Constant
     6 kCatE  5.0  # Constant
