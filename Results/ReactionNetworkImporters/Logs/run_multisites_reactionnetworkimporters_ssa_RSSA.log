@@ -16,9 +16,9 @@ Parsing groups...done
 -----     Beginning benchmarks for multisite1 using RSSA     -----
 -----     Benchmark finished.     -----
 
-real	2m7.934s
-user	1m9.434s
-sys	0m12.324s
+real	2m43.265s
+user	1m19.982s
+sys	0m10.548s
 Starts benchmark runs on the multisite model nr 3
   Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
   Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
@@ -37,9 +37,9 @@ Parsing groups...done
 -----     Beginning benchmarks for multisite3 using RSSA     -----
 -----     Benchmark finished.     -----
 
-real	1m31.670s
-user	1m21.852s
-sys	0m7.506s
+real	2m55.319s
+user	2m35.605s
+sys	0m7.167s
 Starts benchmark runs on the multisite model nr 4
   Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
   Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
@@ -58,9 +58,9 @@ Parsing groups...done
 -----     Beginning benchmarks for multisite4 using RSSA     -----
 -----     Benchmark finished.     -----
 
-real	1m59.829s
-user	1m50.729s
-sys	0m7.399s
+real	10m10.581s
+user	9m59.904s
+sys	0m7.756s
 Starts benchmark runs on the multisite model nr 5
   Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
   Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
@@ -79,9 +79,9 @@ Parsing groups...done
 -----     Beginning benchmarks for multisite5 using RSSA     -----
 -----     Benchmark finished.     -----
 
-real	4m59.651s
-user	4m45.613s
-sys	0m7.757s
+real	52m22.776s
+user	52m7.767s
+sys	0m7.857s
 Starts benchmark runs on the multisite model nr 6
   Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
   Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
@@ -100,9 +100,9 @@ Parsing groups...done
 -----     Beginning benchmarks for multisite6 using RSSA     -----
 -----     Benchmark finished.     -----
 
-real	23m23.425s
-user	23m2.348s
-sys	0m9.088s
+real	305m5.008s
+user	301m41.054s
+sys	0m13.152s
 Starts benchmark runs on the multisite model nr 7
   Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
   Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
@@ -121,6 +121,6 @@ Parsing groups...done
 -----     Beginning benchmarks for multisite7 using RSSA     -----
 -----     Benchmark finished.     -----
 
-real	111m59.420s
-user	110m54.336s
-sys	0m10.906s
+real	1441m0.307s
+user	1434m4.299s
+sys	0m19.783s

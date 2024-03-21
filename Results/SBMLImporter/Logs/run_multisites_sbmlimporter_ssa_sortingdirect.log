@@ -6,9 +6,9 @@ Threads in use: 1
 -----     Beginning benchmarks for multisite1 using SortingDirect     -----
 -----     Benchmark finished.     -----
 
-real	2m9.867s
-user	1m13.026s
-sys	0m12.807s
+real	3m17.141s
+user	1m17.776s
+sys	0m13.139s
 Starts benchmark runs on the multisite model nr 3
   Activating project at `~/Stochastic_benchmark/SBMLImporter`
   Activating project at `~/Stochastic_benchmark/SBMLImporter`
@@ -17,9 +17,9 @@ Threads in use: 1
 -----     Beginning benchmarks for multisite3 using SortingDirect     -----
 -----     Benchmark finished.     -----
 
-real	1m27.537s
-user	1m11.058s
-sys	0m7.921s
+real	2m8.402s
+user	2m1.025s
+sys	0m6.870s
 Starts benchmark runs on the multisite model nr 4
   Activating project at `~/Stochastic_benchmark/SBMLImporter`
   Activating project at `~/Stochastic_benchmark/SBMLImporter`
@@ -28,9 +28,9 @@ Threads in use: 1
 -----     Beginning benchmarks for multisite4 using SortingDirect     -----
 -----     Benchmark finished.     -----
 
-real	2m28.927s
-user	2m21.446s
-sys	0m6.946s
+real	6m42.850s
+user	6m32.154s
+sys	0m7.402s
 Starts benchmark runs on the multisite model nr 5
   Activating project at `~/Stochastic_benchmark/SBMLImporter`
   Activating project at `~/Stochastic_benchmark/SBMLImporter`
@@ -39,9 +39,9 @@ Threads in use: 1
 -----     Beginning benchmarks for multisite5 using SortingDirect     -----
 -----     Benchmark finished.     -----
 
-real	9m28.983s
-user	9m18.175s
-sys	0m8.209s
+real	31m39.083s
+user	31m19.976s
+sys	0m8.841s
 Starts benchmark runs on the multisite model nr 6
   Activating project at `~/Stochastic_benchmark/SBMLImporter`
   Activating project at `~/Stochastic_benchmark/SBMLImporter`
@@ -50,6 +50,6 @@ Threads in use: 1
 -----     Beginning benchmarks for multisite6 using SortingDirect     -----
 -----     Benchmark finished.     -----
 
-real	83m0.074s
-user	82m1.702s
-sys	0m15.195s
+real	325m55.245s
+user	322m12.067s
+sys	0m18.413s

@@ -6,9 +6,9 @@ Threads in use: 1
 -----     Beginning benchmarks for multisite1 using RSSACR     -----
 -----     Benchmark finished.     -----
 
-real	2m53.561s
-user	1m11.885s
-sys	0m12.195s
+real	3m14.419s
+user	1m13.768s
+sys	0m12.354s
 Starts benchmark runs on the multisite model nr 3
   Activating project at `~/Stochastic_benchmark/SBMLImporter`
   Activating project at `~/Stochastic_benchmark/SBMLImporter`
@@ -17,9 +17,9 @@ Threads in use: 1
 -----     Beginning benchmarks for multisite3 using RSSACR     -----
 -----     Benchmark finished.     -----
 
-real	1m32.855s
-user	1m19.227s
-sys	0m8.374s
+real	2m17.606s
+user	1m57.955s
+sys	0m7.792s
 Starts benchmark runs on the multisite model nr 4
   Activating project at `~/Stochastic_benchmark/SBMLImporter`
   Activating project at `~/Stochastic_benchmark/SBMLImporter`
@@ -28,9 +28,9 @@ Threads in use: 1
 -----     Beginning benchmarks for multisite4 using RSSACR     -----
 -----     Benchmark finished.     -----
 
-real	2m55.783s
-user	2m46.090s
-sys	0m7.952s
+real	5m55.593s
+user	5m36.740s
+sys	0m8.313s
 Starts benchmark runs on the multisite model nr 5
   Activating project at `~/Stochastic_benchmark/SBMLImporter`
   Activating project at `~/Stochastic_benchmark/SBMLImporter`
@@ -39,9 +39,9 @@ Threads in use: 1
 -----     Beginning benchmarks for multisite5 using RSSACR     -----
 -----     Benchmark finished.     -----
 
-real	9m41.033s
-user	9m9.767s
-sys	0m8.935s
+real	23m53.547s
+user	23m8.164s
+sys	0m9.939s
 Starts benchmark runs on the multisite model nr 6
   Activating project at `~/Stochastic_benchmark/SBMLImporter`
   Activating project at `~/Stochastic_benchmark/SBMLImporter`
@@ -50,6 +50,6 @@ Threads in use: 1
 -----     Beginning benchmarks for multisite6 using RSSACR     -----
 -----     Benchmark finished.     -----
 
-real	64m10.478s
-user	63m49.484s
-sys	0m9.260s
+real	186m30.132s
+user	185m17.335s
+sys	0m11.379s

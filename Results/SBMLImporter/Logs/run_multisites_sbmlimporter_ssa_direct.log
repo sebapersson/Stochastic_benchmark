@@ -3,53 +3,53 @@ Starts benchmark runs on the multisite model nr 1
   Activating project at `~/Stochastic_benchmark/SBMLImporter`
 Threads in use: 1
 
------     Beginning benchmarks for multisite1 using RSSA     -----
+-----     Beginning benchmarks for multisite1 using Direct     -----
 -----     Benchmark finished.     -----
 
-real	3m23.596s
-user	1m22.547s
-sys	0m11.789s
+real	3m16.115s
+user	1m16.020s
+sys	0m12.497s
 Starts benchmark runs on the multisite model nr 3
   Activating project at `~/Stochastic_benchmark/SBMLImporter`
   Activating project at `~/Stochastic_benchmark/SBMLImporter`
 Threads in use: 1
 
------     Beginning benchmarks for multisite3 using RSSA     -----
+-----     Beginning benchmarks for multisite3 using Direct     -----
 -----     Benchmark finished.     -----
 
-real	2m29.723s
-user	2m21.741s
-sys	0m6.836s
+real	4m31.559s
+user	4m21.543s
+sys	0m7.672s
 Starts benchmark runs on the multisite model nr 4
   Activating project at `~/Stochastic_benchmark/SBMLImporter`
   Activating project at `~/Stochastic_benchmark/SBMLImporter`
 Threads in use: 1
 
------     Beginning benchmarks for multisite4 using RSSA     -----
+-----     Beginning benchmarks for multisite4 using Direct     -----
 -----     Benchmark finished.     -----
 
-real	8m11.022s
-user	8m0.774s
-sys	0m7.357s
+real	28m34.019s
+user	28m20.607s
+sys	0m8.052s
 Starts benchmark runs on the multisite model nr 5
   Activating project at `~/Stochastic_benchmark/SBMLImporter`
   Activating project at `~/Stochastic_benchmark/SBMLImporter`
 Threads in use: 1
 
------     Beginning benchmarks for multisite5 using RSSA     -----
+-----     Beginning benchmarks for multisite5 using Direct     -----
 -----     Benchmark finished.     -----
 
-real	44m11.248s
-user	43m44.385s
-sys	0m8.422s
+real	161m14.979s
+user	160m45.092s
+sys	0m8.932s
 Starts benchmark runs on the multisite model nr 6
   Activating project at `~/Stochastic_benchmark/SBMLImporter`
   Activating project at `~/Stochastic_benchmark/SBMLImporter`
 Threads in use: 1
 
------     Beginning benchmarks for multisite6 using RSSA     -----
+-----     Beginning benchmarks for multisite6 using Direct     -----
 -----     Benchmark finished.     -----
 
-real	283m55.590s
-user	280m23.253s
-sys	0m12.542s
+real	810m21.741s
+user	807m51.485s
+sys	0m17.581s

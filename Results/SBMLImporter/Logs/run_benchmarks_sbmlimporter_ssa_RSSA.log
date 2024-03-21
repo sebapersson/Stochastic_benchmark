@@ -1,35 +1,15 @@
 Starts benchmark runs on the multistate model.
-  Activating project at `~/Projects/Stochastic_benchmark/SBMLImporter`
-  Activating project at `~/Projects/Stochastic_benchmark/SBMLImporter`
-Threads in use: 1
-
------     Beginning benchmarks for multistate using RSSA     -----
------     Benchmark finished.     -----
-
-real	4m6.264s
-user	3m15.335s
-sys	0m11.199s
 Starts benchmark runs on the multisite2 model.
-  Activating project at `~/Projects/Stochastic_benchmark/SBMLImporter`
-  Activating project at `~/Projects/Stochastic_benchmark/SBMLImporter`
-Threads in use: 1
-
------     Beginning benchmarks for multisite2 using RSSA     -----
------     Benchmark finished.     -----
-
-real	7m13.052s
-user	6m59.944s
-sys	0m7.835s
 Starts benchmark runs on the egfr_net model.
-  Activating project at `~/Projects/Stochastic_benchmark/SBMLImporter`
-  Activating project at `~/Projects/Stochastic_benchmark/SBMLImporter`
+Starts benchmark runs on the fceri_gamma2 model.
+  Activating project at `~/Stochastic_benchmark/SBMLImporter`
+  Activating project at `~/Stochastic_benchmark/SBMLImporter`
 Threads in use: 1
 
------     Beginning benchmarks for egfr_net using RSSA     -----
+-----     Beginning benchmarks for fceri_gamma2 using RSSA     -----
 -----     Benchmark finished.     -----
 
-real	73m26.563s
-user	72m48.030s
-sys	0m8.732s
+real	64m14.351s
+user	61m11.178s
+sys	0m20.612s
 Starts benchmark runs on the BCR model.
-slurmstepd-d-18-3-3: error: *** JOB 25421140 ON d-18-3-3 CANCELLED AT 2024-03-19T15:40:39 DUE TO TIME LIMIT ***

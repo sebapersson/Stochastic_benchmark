@@ -16,9 +16,9 @@ Parsing groups...done
 -----     Beginning benchmarks for multisite1 using Direct     -----
 -----     Benchmark finished.     -----
 
-real	1m48.077s
-user	1m7.535s
-sys	0m11.006s
+real	2m1.752s
+user	1m13.882s
+sys	0m11.817s
 Starts benchmark runs on the multisite model nr 3
   Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
   Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
@@ -37,9 +37,9 @@ Parsing groups...done
 -----     Beginning benchmarks for multisite3 using Direct     -----
 -----     Benchmark finished.     -----
 
-real	1m57.630s
-user	1m45.027s
-sys	0m7.914s
+real	4m57.299s
+user	4m47.470s
+sys	0m7.419s
 Starts benchmark runs on the multisite model nr 4
   Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
   Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
@@ -58,9 +58,9 @@ Parsing groups...done
 -----     Beginning benchmarks for multisite4 using Direct     -----
 -----     Benchmark finished.     -----
 
-real	5m38.692s
-user	5m27.396s
-sys	0m7.535s
+real	18m45.252s
+user	18m34.421s
+sys	0m7.491s
 Starts benchmark runs on the multisite model nr 5
   Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
   Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
@@ -79,9 +79,9 @@ Parsing groups...done
 -----     Beginning benchmarks for multisite5 using Direct     -----
 -----     Benchmark finished.     -----
 
-real	42m17.078s
-user	41m55.489s
-sys	0m8.838s
+real	147m15.233s
+user	146m42.756s
+sys	0m8.813s
 Starts benchmark runs on the multisite model nr 6
   Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
   Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
@@ -100,27 +100,7 @@ Parsing groups...done
 -----     Beginning benchmarks for multisite6 using Direct     -----
 -----     Benchmark finished.     -----
 
-real	216m55.267s
-user	214m33.460s
-sys	0m10.545s
+real	685m25.099s
+user	681m46.109s
+sys	0m16.044s
 Starts benchmark runs on the multisite model nr 7
-  Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
-  Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
-┌ Warning: Using arrays or dicts to store parameters of different types can hurt performance.
-│ Consider using tuples instead.
-└ @ SciMLBase ~/.julia/packages/SciMLBase/Dwomw/src/performance_warnings.jl:33
-Threads in use: 1
-Parsing parameters...done
-Creating parameters...done
-Parsing species...done
-Creating species...done
-Creating species and parameters for evaluating expressions...done
-Parsing and adding reactions...done
-Parsing groups...done
-
------     Beginning benchmarks for multisite7 using Direct     -----
------     Benchmark finished.     -----
-
-real	1028m48.802s
-user	1022m44.285s
-sys	0m19.764s

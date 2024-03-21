@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH -o ../Results/PySB/Logs/run_benchmarks_pysb_ssa_1.log
+#SBATCH -o ../Results/PySB/Logs/run_benchmarks_pysb_ssa_2.log
 #SBATCH -N 1  
 #SBATCH --ntasks=1  
 #SBATCH --cpus-per-task=1
