@@ -1,6 +1,6 @@
 Starts benchmark runs on the multisite model nr 1
-  Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
-  Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
 ┌ Warning: Using arrays or dicts to store parameters of different types can hurt performance.
 │ Consider using tuples instead.
 └ @ SciMLBase ~/.julia/packages/SciMLBase/Dwomw/src/performance_warnings.jl:33
@@ -16,12 +16,12 @@ Parsing groups...done
 -----     Beginning benchmarks for multisite1 using RSSA     -----
 -----     Benchmark finished.     -----
 
-real	2m43.265s
-user	1m19.982s
-sys	0m10.548s
+real	1m54.513s
+user	1m18.412s
+sys	0m11.370s
 Starts benchmark runs on the multisite model nr 3
-  Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
-  Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
 ┌ Warning: Using arrays or dicts to store parameters of different types can hurt performance.
 │ Consider using tuples instead.
 └ @ SciMLBase ~/.julia/packages/SciMLBase/Dwomw/src/performance_warnings.jl:33
@@ -37,12 +37,12 @@ Parsing groups...done
 -----     Beginning benchmarks for multisite3 using RSSA     -----
 -----     Benchmark finished.     -----
 
-real	2m55.319s
-user	2m35.605s
-sys	0m7.167s
+real	2m43.937s
+user	2m34.840s
+sys	0m7.152s
 Starts benchmark runs on the multisite model nr 4
-  Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
-  Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
 ┌ Warning: Using arrays or dicts to store parameters of different types can hurt performance.
 │ Consider using tuples instead.
 └ @ SciMLBase ~/.julia/packages/SciMLBase/Dwomw/src/performance_warnings.jl:33
@@ -58,12 +58,12 @@ Parsing groups...done
 -----     Beginning benchmarks for multisite4 using RSSA     -----
 -----     Benchmark finished.     -----
 
-real	10m10.581s
-user	9m59.904s
-sys	0m7.756s
+real	10m6.869s
+user	9m57.813s
+sys	0m6.976s
 Starts benchmark runs on the multisite model nr 5
-  Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
-  Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
 ┌ Warning: Using arrays or dicts to store parameters of different types can hurt performance.
 │ Consider using tuples instead.
 └ @ SciMLBase ~/.julia/packages/SciMLBase/Dwomw/src/performance_warnings.jl:33
@@ -79,12 +79,12 @@ Parsing groups...done
 -----     Beginning benchmarks for multisite5 using RSSA     -----
 -----     Benchmark finished.     -----
 
-real	52m22.776s
-user	52m7.767s
-sys	0m7.857s
+real	52m17.726s
+user	52m3.256s
+sys	0m8.310s
 Starts benchmark runs on the multisite model nr 6
-  Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
-  Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
 ┌ Warning: Using arrays or dicts to store parameters of different types can hurt performance.
 │ Consider using tuples instead.
 └ @ SciMLBase ~/.julia/packages/SciMLBase/Dwomw/src/performance_warnings.jl:33
@@ -100,12 +100,12 @@ Parsing groups...done
 -----     Beginning benchmarks for multisite6 using RSSA     -----
 -----     Benchmark finished.     -----
 
-real	305m5.008s
-user	301m41.054s
-sys	0m13.152s
+real	284m53.140s
+user	284m2.047s
+sys	0m10.403s
 Starts benchmark runs on the multisite model nr 7
-  Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
-  Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
 ┌ Warning: Using arrays or dicts to store parameters of different types can hurt performance.
 │ Consider using tuples instead.
 └ @ SciMLBase ~/.julia/packages/SciMLBase/Dwomw/src/performance_warnings.jl:33
@@ -121,6 +121,6 @@ Parsing groups...done
 -----     Beginning benchmarks for multisite7 using RSSA     -----
 -----     Benchmark finished.     -----
 
-real	1441m0.307s
-user	1434m4.299s
-sys	0m19.783s
+real	1439m45.818s
+user	1436m1.123s
+sys	0m17.935s

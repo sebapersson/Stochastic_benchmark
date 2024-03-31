@@ -1,0 +1,65 @@
+Starts benchmark runs on the multisite model nr 1
+  Activating project at `~/Projects/Stochastic_benchmark/RoadRunner`
+  Activating project at `~/Projects/Stochastic_benchmark/RoadRunner`
+┌ Warning: Replacing docs for `RoadRunner.getLastError :: Tuple{}` in module `RoadRunner`
+└ @ Base.Docs docs/Docs.jl:243
+Threads in use: 1
+
+-----     Beginning benchmarks for multisite1 using SSA.     -----
+-----     Benchmark finished.     -----
+
+real	2m5.665s
+user	0m53.838s
+sys	0m7.091s
+Starts benchmark runs on the multisite model nr 3
+  Activating project at `~/Projects/Stochastic_benchmark/RoadRunner`
+  Activating project at `~/Projects/Stochastic_benchmark/RoadRunner`
+┌ Warning: Replacing docs for `RoadRunner.getLastError :: Tuple{}` in module `RoadRunner`
+└ @ Base.Docs docs/Docs.jl:243
+Threads in use: 1
+
+-----     Beginning benchmarks for multisite3 using SSA.     -----
+-----     Benchmark finished.     -----
+
+real	5m40.148s
+user	5m37.319s
+sys	0m5.274s
+Starts benchmark runs on the multisite model nr 4
+  Activating project at `~/Projects/Stochastic_benchmark/RoadRunner`
+  Activating project at `~/Projects/Stochastic_benchmark/RoadRunner`
+┌ Warning: Replacing docs for `RoadRunner.getLastError :: Tuple{}` in module `RoadRunner`
+└ @ Base.Docs docs/Docs.jl:243
+Threads in use: 1
+
+-----     Beginning benchmarks for multisite4 using SSA.     -----
+-----     Benchmark finished.     -----
+
+real	26m2.778s
+user	25m51.110s
+sys	0m5.609s
+Starts benchmark runs on the multisite model nr 5
+  Activating project at `~/Projects/Stochastic_benchmark/RoadRunner`
+  Activating project at `~/Projects/Stochastic_benchmark/RoadRunner`
+┌ Warning: Replacing docs for `RoadRunner.getLastError :: Tuple{}` in module `RoadRunner`
+└ @ Base.Docs docs/Docs.jl:243
+Threads in use: 1
+
+-----     Beginning benchmarks for multisite5 using SSA.     -----
+-----     Benchmark finished.     -----
+
+real	128m21.273s
+user	127m50.658s
+sys	0m7.369s
+Starts benchmark runs on the multisite model nr 6
+  Activating project at `~/Projects/Stochastic_benchmark/RoadRunner`
+  Activating project at `~/Projects/Stochastic_benchmark/RoadRunner`
+┌ Warning: Replacing docs for `RoadRunner.getLastError :: Tuple{}` in module `RoadRunner`
+└ @ Base.Docs docs/Docs.jl:243
+Threads in use: 1
+
+-----     Beginning benchmarks for multisite6 using SSA.     -----
+-----     Benchmark finished.     -----
+
+real	656m57.185s
+user	655m52.757s
+sys	0m11.422s

@@ -1,10 +1,11 @@
 Starts benchmark runs on the BCR model.
 Threads in use: 1
+lengs = [ 2500.3453617  15995.58028615]
 Traceback (most recent call last):
-  File "/home/gridsan/tloman/Projects/Stochastic_benchmark/PySB/pysb_make_benchmarks.py", line 55, in <module>
+  File "/home/gridsan/tloman/Projects/Stochastic_benchmark/PySB/pysb_make_benchmarks.py", line 56, in <module>
     benchmarks[i] = make_ssa_benchmark(simulator, n)
                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/gridsan/tloman/Projects/Stochastic_benchmark/PySB/pysb_make_benchmarks.py", line 37, in make_ssa_benchmark
+  File "/home/gridsan/tloman/Projects/Stochastic_benchmark/PySB/pysb_make_benchmarks.py", line 38, in make_ssa_benchmark
     durations = timeit.Timer(benchmark_func).repeat(repeat=n, number=1)
                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/gridsan/tloman/.conda/envs/Stochastic_benchmark/lib/python3.12/timeit.py", line 208, in repeat
@@ -14,16 +15,16 @@ Traceback (most recent call last):
     timing = self.inner(it, self.timer)
              ^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "<timeit-src>", line 6, in inner
-  File "/home/gridsan/tloman/Projects/Stochastic_benchmark/PySB/pysb_make_benchmarks.py", line 36, in benchmark_func
+  File "/home/gridsan/tloman/Projects/Stochastic_benchmark/PySB/pysb_make_benchmarks.py", line 37, in benchmark_func
     simulator.run(n_runs=1, method=method, gml=50000000)
   File "/home/gridsan/tloman/.conda/envs/Stochastic_benchmark/lib/python3.12/site-packages/pysb/simulator/bng.py", line 211, in run
     bngfile.execute()
   File "/home/gridsan/tloman/.conda/envs/Stochastic_benchmark/lib/python3.12/site-packages/pysb/bng.py", line 474, in execute
     raise BngInterfaceError('\n'.join(captured_error_lines) + "\n" +
 pysb.bng.BngInterfaceError: 
-ABORT: SpeciesGraph::updateEdges(): dangling edge not allowed in species graph! at line 14 of file ./pysb0.species
+ABORT: SpeciesGraph::updateEdges(): dangling edge not allowed in species graph! at line 13 of file ./pysb0.species
   at line 279
 
-real	376m10.514s
-user	375m21.802s
-sys	0m3.025s
+real	368m21.928s
+user	367m19.152s
+sys	0m3.448s

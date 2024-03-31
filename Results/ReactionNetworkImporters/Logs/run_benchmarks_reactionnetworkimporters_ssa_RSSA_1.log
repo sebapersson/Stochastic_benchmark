@@ -13,12 +13,12 @@ Creating species and parameters for evaluating expressions...done
 Parsing and adding reactions...done
 Parsing groups...done
 
------     Beginning benchmarks for multistate using Direct     -----
+-----     Beginning benchmarks for multistate using RSSA     -----
 -----     Benchmark finished.     -----
 
-real	3m30.358s
-user	3m14.789s
-sys	0m8.328s
+real	3m27.234s
+user	3m4.636s
+sys	0m9.506s
 Starts benchmark runs on the multisite2 model.
   Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
   Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
@@ -34,12 +34,12 @@ Creating species and parameters for evaluating expressions...done
 Parsing and adding reactions...done
 Parsing groups...done
 
------     Beginning benchmarks for multisite2 using Direct     -----
+-----     Beginning benchmarks for multisite2 using RSSA     -----
 -----     Benchmark finished.     -----
 
-real	36m41.613s
-user	36m16.300s
-sys	0m10.071s
+real	8m48.844s
+user	8m31.309s
+sys	0m8.710s
 Starts benchmark runs on the egfr_net model.
   Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
   Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
@@ -55,12 +55,12 @@ Creating species and parameters for evaluating expressions...done
 Parsing and adding reactions...done
 Parsing groups...done
 
------     Beginning benchmarks for egfr_net using Direct     -----
+-----     Beginning benchmarks for egfr_net using RSSA     -----
 -----     Benchmark finished.     -----
 
-real	50m42.137s
-user	50m11.783s
-sys	0m9.501s
+real	8m41.844s
+user	8m21.021s
+sys	0m8.592s
 Starts benchmark runs on the fceri_gamma2 model.
   Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
   Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
@@ -76,9 +76,9 @@ Creating species and parameters for evaluating expressions...done
 Parsing and adding reactions...done
 Parsing groups...done
 
------     Beginning benchmarks for fceri_gamma2 using Direct     -----
+-----     Beginning benchmarks for fceri_gamma2 using RSSA     -----
 -----     Benchmark finished.     -----
 
-real	14m37.893s
-user	14m15.644s
-sys	0m9.031s
+real	80m35.496s
+user	78m20.398s
+sys	0m12.869s

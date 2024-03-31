@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH -o ../Results/SBMLImporter/Logs/run_multisites_sbmlimporter_ssa_direct.log
+#SBATCH -o ../Results/RoadRunner/Logs/run_multisites_roadrunner_ssa.log
 #SBATCH -N 1  
 #SBATCH --ntasks=1  
 #SBATCH --cpus-per-task=1

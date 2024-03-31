@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH -o ../Results/SBMLImporter/Logs/run_benchmarks_sbmlimporter_ssa_direct.log
+#SBATCH -o ../Results/SBMLImporter/Logs/run_benchmarks_sbmlimporter_ssa_direct_1.log
 #SBATCH -N 1  
 #SBATCH --ntasks=1  
 #SBATCH --cpus-per-task=1

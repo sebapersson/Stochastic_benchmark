@@ -1,0 +1,21 @@
+Starts benchmark runs on the BCR model.
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
+┌ Warning: Using arrays or dicts to store parameters of different types can hurt performance.
+│ Consider using tuples instead.
+└ @ SciMLBase ~/.julia/packages/SciMLBase/Dwomw/src/performance_warnings.jl:33
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for BCR using RSSA     -----
+-----     Benchmark finished.     -----
+
+real	2568m6.559s
+user	2559m6.680s
+sys	0m24.111s

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH -o ../Results/SBMLImporter/Logs/run_benchmarks_sbmlimporter_ssa_RSSA.log
+#SBATCH -o ../Results/SBMLImporter/Logs/run_benchmarks_sbmlimporter_ssa_RSSA_1.log
 #SBATCH -N 1  
 #SBATCH --ntasks=1  
 #SBATCH --cpus-per-task=1
@@ -21,6 +21,3 @@ time ${run_julia} --threads $JULIA_THREADS_TO_USE sbmlimporter_make_benchmark.jl
 
 echo "Starts benchmark runs on the fceri_gamma2 model."
 time ${run_julia} --threads $JULIA_THREADS_TO_USE sbmlimporter_make_benchmark.jl fceri_gamma2 RSSA 1 3 7
-
-echo "Starts benchmark runs on the BCR model."
-time ${run_julia} --threads $JULIA_THREADS_TO_USE sbmlimporter_make_benchmark.jl BCR RSSA 3.398 5.01 3

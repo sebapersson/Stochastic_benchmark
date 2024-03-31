@@ -1,0 +1,11 @@
+Starts benchmark runs on the BCR model.
+  Activating project at `~/Projects/Stochastic_benchmark/SBMLImporter`
+  Activating project at `~/Projects/Stochastic_benchmark/SBMLImporter`
+Threads in use: 1
+
+-----     Beginning benchmarks for BCR using RSSACR     -----
+-----     Benchmark finished.     -----
+
+real	197m14.899s
+user	196m28.231s
+sys	0m9.892s

@@ -8,9 +8,9 @@ Threads in use: 1
 -----     Beginning benchmarks for multistate using SSA.     -----
 -----     Benchmark finished.     -----
 
-real	4m24.410s
-user	3m57.356s
-sys	0m7.163s
+real	5m11.716s
+user	3m56.383s
+sys	0m7.408s
 Starts benchmark runs on the multisite2 model.
   Activating project at `~/Projects/Stochastic_benchmark/RoadRunner`
   Activating project at `~/Projects/Stochastic_benchmark/RoadRunner`
@@ -21,9 +21,9 @@ Threads in use: 1
 -----     Beginning benchmarks for multisite2 using SSA.     -----
 -----     Benchmark finished.     -----
 
-real	43m37.932s
-user	43m29.131s
-sys	0m5.634s
+real	43m35.985s
+user	43m27.386s
+sys	0m6.140s
 Starts benchmark runs on the egfr_net model.
   Activating project at `~/Projects/Stochastic_benchmark/RoadRunner`
   Activating project at `~/Projects/Stochastic_benchmark/RoadRunner`
@@ -34,9 +34,9 @@ Threads in use: 1
 -----     Beginning benchmarks for egfr_net using SSA.     -----
 -----     Benchmark finished.     -----
 
-real	72m50.572s
-user	72m21.245s
-sys	0m6.496s
+real	73m5.412s
+user	72m22.299s
+sys	0m6.152s
 Starts benchmark runs on the fceri_gamma2 model.
   Activating project at `~/Projects/Stochastic_benchmark/RoadRunner`
   Activating project at `~/Projects/Stochastic_benchmark/RoadRunner`
@@ -47,6 +47,6 @@ Threads in use: 1
 -----     Beginning benchmarks for fceri_gamma2 using SSA.     -----
 -----     Benchmark finished.     -----
 
-real	25m8.736s
-user	24m26.022s
-sys	0m13.324s
+real	25m19.634s
+user	24m12.994s
+sys	0m13.867s

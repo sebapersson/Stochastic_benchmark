@@ -1,0 +1,44 @@
+Starts benchmark runs on the multistate model.
+  Activating project at `~/Projects/Stochastic_benchmark/SBMLImporter`
+  Activating project at `~/Projects/Stochastic_benchmark/SBMLImporter`
+Threads in use: 1
+
+-----     Beginning benchmarks for multistate using RSSACR     -----
+-----     Benchmark finished.     -----
+
+real	4m12.097s
+user	3m29.054s
+sys	0m13.259s
+Starts benchmark runs on the multisite2 model.
+  Activating project at `~/Projects/Stochastic_benchmark/SBMLImporter`
+  Activating project at `~/Projects/Stochastic_benchmark/SBMLImporter`
+Threads in use: 1
+
+-----     Beginning benchmarks for multisite2 using RSSACR     -----
+-----     Benchmark finished.     -----
+
+real	4m32.213s
+user	4m19.283s
+sys	0m8.368s
+Starts benchmark runs on the egfr_net model.
+  Activating project at `~/Projects/Stochastic_benchmark/SBMLImporter`
+  Activating project at `~/Projects/Stochastic_benchmark/SBMLImporter`
+Threads in use: 1
+
+-----     Beginning benchmarks for egfr_net using RSSACR     -----
+-----     Benchmark finished.     -----
+
+real	4m50.183s
+user	4m36.185s
+sys	0m8.601s
+Starts benchmark runs on the fceri_gamma2 model.
+  Activating project at `~/Projects/Stochastic_benchmark/SBMLImporter`
+  Activating project at `~/Projects/Stochastic_benchmark/SBMLImporter`
+Threads in use: 1
+
+-----     Beginning benchmarks for fceri_gamma2 using RSSACR     -----
+-----     Benchmark finished.     -----
+
+real	6m51.812s
+user	6m35.084s
+sys	0m9.981s

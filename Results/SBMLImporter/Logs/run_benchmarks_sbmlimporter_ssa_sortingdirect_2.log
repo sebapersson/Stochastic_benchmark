@@ -1,0 +1,11 @@
+Starts benchmark runs on the BCR model.
+  Activating project at `~/Projects/Stochastic_benchmark/SBMLImporter`
+  Activating project at `~/Projects/Stochastic_benchmark/SBMLImporter`
+Threads in use: 1
+
+-----     Beginning benchmarks for BCR using SortingDirect     -----
+-----     Benchmark finished.     -----
+
+real	5739m13.876s
+user	5727m10.825s
+sys	0m24.542s

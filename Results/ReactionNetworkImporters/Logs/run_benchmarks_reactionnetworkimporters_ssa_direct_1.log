@@ -13,12 +13,12 @@ Creating species and parameters for evaluating expressions...done
 Parsing and adding reactions...done
 Parsing groups...done
 
------     Beginning benchmarks for multistate using SortingDirect     -----
+-----     Beginning benchmarks for multistate using Direct     -----
 -----     Benchmark finished.     -----
 
-real	3m37.157s
-user	3m16.285s
-sys	0m9.208s
+real	4m6.588s
+user	3m15.802s
+sys	0m14.324s
 Starts benchmark runs on the multisite2 model.
   Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
   Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
@@ -34,12 +34,12 @@ Creating species and parameters for evaluating expressions...done
 Parsing and adding reactions...done
 Parsing groups...done
 
------     Beginning benchmarks for multisite2 using SortingDirect     -----
+-----     Beginning benchmarks for multisite2 using Direct     -----
 -----     Benchmark finished.     -----
 
-real	10m44.058s
-user	10m18.066s
-sys	0m9.926s
+real	32m34.452s
+user	32m7.287s
+sys	0m9.797s
 Starts benchmark runs on the egfr_net model.
   Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
   Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
@@ -55,33 +55,12 @@ Creating species and parameters for evaluating expressions...done
 Parsing and adding reactions...done
 Parsing groups...done
 
------     Beginning benchmarks for egfr_net using SortingDirect     -----
+-----     Beginning benchmarks for egfr_net using Direct     -----
 -----     Benchmark finished.     -----
 
-real	15m55.374s
-user	15m32.002s
-sys	0m10.257s
-Starts benchmark runs on the BCR model.
-  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
-  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
-┌ Warning: Using arrays or dicts to store parameters of different types can hurt performance.
-│ Consider using tuples instead.
-└ @ SciMLBase ~/.julia/packages/SciMLBase/Dwomw/src/performance_warnings.jl:33
-Threads in use: 1
-Parsing parameters...done
-Creating parameters...done
-Parsing species...done
-Creating species...done
-Creating species and parameters for evaluating expressions...done
-Parsing and adding reactions...done
-Parsing groups...done
-
------     Beginning benchmarks for BCR using SortingDirect     -----
------     Benchmark finished.     -----
-
-real	4746m21.659s
-user	4737m7.476s
-sys	0m21.384s
+real	54m17.277s
+user	53m54.721s
+sys	0m8.472s
 Starts benchmark runs on the fceri_gamma2 model.
   Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
   Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
@@ -97,9 +76,9 @@ Creating species and parameters for evaluating expressions...done
 Parsing and adding reactions...done
 Parsing groups...done
 
------     Beginning benchmarks for fceri_gamma2 using SortingDirect     -----
+-----     Beginning benchmarks for fceri_gamma2 using Direct     -----
 -----     Benchmark finished.     -----
 
-real	13m10.516s
-user	11m52.085s
-sys	0m16.182s
+real	18m7.905s
+user	17m42.276s
+sys	0m10.784s

@@ -1,6 +1,6 @@
 Starts benchmark runs on the multisite model nr 1
-  Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
-  Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
 ┌ Warning: Using arrays or dicts to store parameters of different types can hurt performance.
 │ Consider using tuples instead.
 └ @ SciMLBase ~/.julia/packages/SciMLBase/Dwomw/src/performance_warnings.jl:33
@@ -16,12 +16,12 @@ Parsing groups...done
 -----     Beginning benchmarks for multisite1 using Direct     -----
 -----     Benchmark finished.     -----
 
-real	2m1.752s
-user	1m13.882s
-sys	0m11.817s
+real	1m53.587s
+user	1m15.163s
+sys	0m12.475s
 Starts benchmark runs on the multisite model nr 3
-  Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
-  Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
 ┌ Warning: Using arrays or dicts to store parameters of different types can hurt performance.
 │ Consider using tuples instead.
 └ @ SciMLBase ~/.julia/packages/SciMLBase/Dwomw/src/performance_warnings.jl:33
@@ -37,12 +37,12 @@ Parsing groups...done
 -----     Beginning benchmarks for multisite3 using Direct     -----
 -----     Benchmark finished.     -----
 
-real	4m57.299s
-user	4m47.470s
-sys	0m7.419s
+real	4m32.690s
+user	4m24.347s
+sys	0m7.176s
 Starts benchmark runs on the multisite model nr 4
-  Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
-  Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
 ┌ Warning: Using arrays or dicts to store parameters of different types can hurt performance.
 │ Consider using tuples instead.
 └ @ SciMLBase ~/.julia/packages/SciMLBase/Dwomw/src/performance_warnings.jl:33
@@ -58,12 +58,12 @@ Parsing groups...done
 -----     Beginning benchmarks for multisite4 using Direct     -----
 -----     Benchmark finished.     -----
 
-real	18m45.252s
-user	18m34.421s
-sys	0m7.491s
+real	18m57.746s
+user	18m48.476s
+sys	0m7.453s
 Starts benchmark runs on the multisite model nr 5
-  Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
-  Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
 ┌ Warning: Using arrays or dicts to store parameters of different types can hurt performance.
 │ Consider using tuples instead.
 └ @ SciMLBase ~/.julia/packages/SciMLBase/Dwomw/src/performance_warnings.jl:33
@@ -79,12 +79,12 @@ Parsing groups...done
 -----     Beginning benchmarks for multisite5 using Direct     -----
 -----     Benchmark finished.     -----
 
-real	147m15.233s
-user	146m42.756s
-sys	0m8.813s
+real	160m40.147s
+user	160m7.959s
+sys	0m9.339s
 Starts benchmark runs on the multisite model nr 6
-  Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
-  Activating project at `~/Stochastic_benchmark/ReactionNetworkImporters`
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
+  Activating project at `~/Projects/Stochastic_benchmark/ReactionNetworkImporters`
 ┌ Warning: Using arrays or dicts to store parameters of different types can hurt performance.
 │ Consider using tuples instead.
 └ @ SciMLBase ~/.julia/packages/SciMLBase/Dwomw/src/performance_warnings.jl:33
@@ -100,7 +100,8 @@ Parsing groups...done
 -----     Beginning benchmarks for multisite6 using Direct     -----
 -----     Benchmark finished.     -----
 
-real	685m25.099s
-user	681m46.109s
-sys	0m16.044s
+real	655m35.220s
+user	652m1.040s
+sys	0m15.840s
 Starts benchmark runs on the multisite model nr 7
+slurmstepd-d-19-15-3: error: *** JOB 25521085 ON d-19-15-3 CANCELLED AT 2024-03-30T10:12:26 DUE TO TIME LIMIT ***

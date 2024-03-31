@@ -1,6 +1,32 @@
+Starts benchmark runs on the multistate model.
+Threads in use: 1
+lengs = [1.00000000e+01 3.16227766e+01 1.00000000e+02 3.16227766e+02
+ 1.00000000e+03 3.16227766e+03 1.00000000e+04 3.16227766e+04
+ 1.00000000e+05]
+
+real	60m17.553s
+user	58m59.399s
+sys	0m5.055s
+Starts benchmark runs on the multisite2 model.
+Threads in use: 1
+lengs = [   10.            31.6227766    100.           316.22776602
+  1000.          3162.27766017 10000.        ]
+
+real	138m18.458s
+user	137m54.653s
+sys	0m3.737s
 Starts benchmark runs on the egfr_net model.
 Threads in use: 1
+lengs = [  10.           21.5443469    46.41588834  100.          215.443469
+  464.15888336 1000.        ]
 
-real	95m28.692s
-user	93m30.720s
-sys	0m44.036s
+real	859m34.930s
+user	856m8.726s
+sys	1m27.905s
+Starts benchmark runs on the fceri_gamma2 model.
+Threads in use: 1
+lengs = [  10.           46.41588834  215.443469   1000.        ]
+
+real	5m0.464s
+user	3m59.354s
+sys	0m2.275s

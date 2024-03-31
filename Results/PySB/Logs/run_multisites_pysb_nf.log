@@ -2,41 +2,41 @@ Starts benchmark runs on the multisite model nr 1
 Threads in use: 1
 lengs = [  10.  100. 1000.]
 
-real	3m23.207s
-user	1m47.954s
-sys	0m2.602s
+real	8m17.399s
+user	7m33.667s
+sys	0m2.520s
 Starts benchmark runs on the multisite model nr 3
 Threads in use: 1
 lengs = [  10.  100. 1000.]
 
-real	3m49.104s
-user	3m46.927s
-sys	0m1.332s
+real	17m3.282s
+user	16m59.794s
+sys	0m1.788s
 Starts benchmark runs on the multisite model nr 4
 Threads in use: 1
 lengs = [  10.  100. 1000.]
 
-real	4m45.807s
-user	4m43.567s
-sys	0m1.376s
+real	21m37.180s
+user	21m30.801s
+sys	0m1.883s
 Starts benchmark runs on the multisite model nr 5
 Threads in use: 1
 lengs = [  10.  100. 1000.]
 
-real	5m48.868s
-user	5m46.311s
-sys	0m1.409s
+real	26m0.727s
+user	25m57.362s
+sys	0m1.759s
 Starts benchmark runs on the multisite model nr 6
 Threads in use: 1
 lengs = [  10.  100. 1000.]
 
-real	6m53.086s
-user	6m47.084s
-sys	0m1.800s
+real	30m18.580s
+user	30m11.088s
+sys	0m2.218s
 Starts benchmark runs on the multisite model nr 7
 Threads in use: 1
 lengs = [  10.  100. 1000.]
 
-real	7m51.849s
-user	7m49.539s
-sys	0m1.387s
+real	35m2.685s
+user	34m58.439s
+sys	0m2.091s
